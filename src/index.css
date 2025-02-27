@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.space-bg {
+  background-color: #000000;
+}
+
+.timeline-item {
+  position: relative;
+  z-index: 10;
+}
+
+.timeline-connector {
+  background: linear-gradient(to bottom, #7d21ff, #2e0350);
+  box-shadow: 0 0 10px #7d21ff;
+}
+
+.timeline-icon {
+  background: linear-gradient(135deg, #7d21ff, #2e0350);
+  box-shadow: 0 0 15px rgba(125, 33, 255, 0.7);
+}
+
+.project-card {
+  background: rgba(20, 20, 20, 0.9);
+  border: 1px solid rgba(125, 33, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+}
+
+.glow-text {
+  text-shadow: 0 0 10px rgba(125, 33, 255, 0.7);
+}
